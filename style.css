@@ -1,0 +1,61 @@
+body {
+    color:white;
+    background:black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+
+}
+ header {
+  border-bottom: solid 2px rgb(141, 215, 250);
+  padding: 20px;
+  font-size: 32px;
+  color: rgb(141, 215, 250);
+ }
+
+
+ section {
+    background: rgb(62, 115, 141);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+ }
+ .Chamada-Texto{
+    margin-right: 20px;
+ }
+ h1{
+font-size: 40px;
+ }
+ p{
+    font-size: 40px;
+ }
+ img {
+    height: 200px;
+ }
+.Categorias-Louvores{
+    display: flex;
+    overflow-x:auto;
+    gap: 10px;   
+}
+.Categorias-Louvores{
+   padding-left: 20px !important;
+   padding-right: 20px !important;
+}
+.Categorias-Louvores img{
+  opacity: 0.5;
+  height: 200px;
+
+}
+
+
+.Categorias-Louvores img:hover {
+   opacity: 1.0;
+   border: solid green;
+}
+.categoria h2 {
+   color: rgb(141, 215, 250);
+}
+.categoria {
+   color: rgb(141, 215, 250);
+}
